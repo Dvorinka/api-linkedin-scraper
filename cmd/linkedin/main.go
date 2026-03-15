@@ -17,7 +17,7 @@ import (
 func main() {
 	logger := log.New(os.Stdout, "[linkedin] ", log.LstdFlags)
 
-	port := envString("PORT", "8095")
+	port := envString("PORT", "30010")
 	apiKey := envString("LINKEDIN_API_KEY", "dev-linkedin-key")
 	if apiKey == "dev-linkedin-key" {
 		logger.Println("LINKEDIN_API_KEY not set, using default development key")
