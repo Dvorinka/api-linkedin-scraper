@@ -1,4 +1,4 @@
-module linkedin-scraper
+module apiservices/linkedin-scraper
 
 go 1.25.7
 
